@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout>
+    <cms_index_index>
+        <reference name="content">
+            <block type="sp_simpleslider/list" name="test.list" template="/sp/simpleslider/list.phtml" />
+        </reference>
+    </cms_index_index>
+    <catalog_product_view>
+        <reference name="content">
+            <block type="sp_simpleslider/list" name="test.list" template="/sp/simpleslider/list.phtml" />
+        </reference>
+    </catalog_product_view>
+    <catalog_category_layered>
+        <reference name="content">
+            <block type="sp_simpleslider/list" name="test.list" template="/sp/simpleslider/list.phtml" />
+        </reference>
+    </catalog_category_layered>
+</layout>

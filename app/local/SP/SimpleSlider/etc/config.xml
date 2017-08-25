@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SP_SimpleSlider>
+            <version>0.1.0</version>
+        </SP_SimpleSlider>
+    </modules>
+    <global>
+        <blocks>
+            <sp_simpleslider>
+                <class>SP_SimpleSlider_Block</class>
+            </sp_simpleslider>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <sp_simpleslider>
+                    <file>sp/simpleslider/layout.xml</file>
+                </sp_simpleslider>
+            </updates>
+        </layout>
+    </frontend>
+</config>
